@@ -7,7 +7,7 @@ public class OrGate extends Gate{
 	private NandGate nandGate3;
 	
 	public OrGate() {
-		
+		super("OR", 2);
 		nandGate1 = new NandGate();
 		nandGate2 = new NandGate();
 		nandGate3 = new NandGate();
